@@ -4,7 +4,8 @@
   "description": "A project to save the food!!!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "express3-handlebars": "*",
     "jquery": "^3.1.1",
     "lodash": "^4.16.6",
-    "mongodb": "^2.2.11"
+    "mongodb": "^2.2.11",
+    "nodemon": "^2.0.22"
   }
 }
